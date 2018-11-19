@@ -1,6 +1,8 @@
 # v-preview-input
 Vue directive allows you to preview image when image file selected.
 
+[Demo](https://demo-laravel52.capilano-fw.com/vue_preview_input)
+
 # Installation
 
     npm i v-preview-input
