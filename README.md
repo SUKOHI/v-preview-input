@@ -34,7 +34,17 @@ Vue directive allows you to preview image when image file selected.
 
     <input type="file" accept="image/*" v-preview-input="profileImages" multiple><br>
     <img v-for="profileImage in profileImages" :src="profileImage">
-    
+
+# Callback
+
+You can call a function through `ready` event after all of the preview image(s) are prepared.
+
+    <input 
+        type="file" 
+        accept="image/*" 
+        v-preview-input="profileImage" 
+        @ready="onPreviewReady">
+
 # License
 
 This package is licensed under the MIT License.
